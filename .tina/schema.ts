@@ -384,7 +384,7 @@ export const tinaConfig = defineConfig({
         }
         return `/${collection.name}/${document.sys.filename}`;
       });
-      cms.plugins.add(RouteMapping);
+      // cms.plugins.add(RouteMapping);
     });
 
     return cms;
